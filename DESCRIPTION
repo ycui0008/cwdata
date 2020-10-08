@@ -1,17 +1,23 @@
 Package: cwdata
-Title: Communicating with Data Resource Pack
+Title: Access the Our World in Data Crop Yields Dataset
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Yuhneg",
-           family = "Cui",
+    person(given = "Stuart",
+           family = "Lee",
            role = c("aut", "cre"),
-           email = "ycui0008@student.monash.edu")
-Description: Provides datasets and functions for use in the ETC5523 Communicating with Data course
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "stuart.lee1@monash.edu")
+Description: Contains a tidy data set of world crop yields.
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Depends: 
     R (>= 2.10)
+License: MIT + file LICENSE
+Imports: 
+    tibble
+Suggests: 
+    knitr,
+    rmarkdown,
+    ggplot2
+VignetteBuilder: knitr

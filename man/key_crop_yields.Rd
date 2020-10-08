@@ -3,17 +3,25 @@
 \docType{data}
 \name{key_crop_yields}
 \alias{key_crop_yields}
-\title{Global crop production}
+\title{Our World in Data's Key Crop Yields}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 143825 rows and 5 columns.
+a tibble with 143825 observations and 5 variables:
+\itemize{
+\item \strong{entity}: full country name
+\item \strong{code}: three letter country code
+\item \strong{year}: year from 1961 to 2018
+\item \strong{crop}: one of bananas, barley, beans, cassava, cocoa, maize, peas, potatoes, rice, soybeans, wheat
+\item \strong{tonnes_per_hectare}: the total yield of the crop, measured in tonnes per hectare
+}
 }
 \source{
-Tidy Tuesdays
+\href{https://ourworldindata.org/crop-yields}{Our World in Data}  and \href{https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-09-01/readme.md}{Tidy Tuesday}
 }
 \usage{
 key_crop_yields
 }
 \description{
-This dataset contains yields of 11 key crop yields from 249 countries
+A dataset containing crop yields for countries over time. Yields
+are measured in tonnes per hectare for seven crops.
 }
 \keyword{datasets}
