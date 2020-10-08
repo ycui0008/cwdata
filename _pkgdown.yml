@@ -1,0 +1,13 @@
+template:
+  params:
+    bootswatch: cerulean
+
+navbar:
+  structure:
+    left: [help, github]
+  components:
+    home: ~
+    help:
+      text: Get started
+      href: articles/crops.html
+
